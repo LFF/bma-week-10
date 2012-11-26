@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Twelve Of DaysXmas</string>
+    <string name="hello_world">Merry Xmas!</string>
+    
+    
+    
+    <string name="menu_settings">Settings</string>
+    
+    
+    
+ <string-array name="days">
+ 
+          <item>first</item> 
+   		  <item>second</item> 
+   			    <item>thrid</item> 
+   		  <item>fourth</item> 
+   			<item>fifth</item>   
+   		  <item>sixth</item>
+   		     <item>seventh</item>
+   		        <item>eighth</item>
+   		           <item>ninth</item>
+   		              <item>tenth</item>
+   		                 <item>eleventh</item>
+   		                    <item>twelfth</item>   
+   		  
+   		  
+    </string-array>
+
+   
+ <string-array name="lines">
+ 
+          <item>A partridge in a pear tree.</item> 
+   	  		    <item>Two turtle doves and
+   	  		        
+   	  		    </item> 
+   	  		  <item>Three french hens</item> 
+   	  		  <item>
+   	  		      Four calling birds
+   	  		      
+   	  		  </item> 
+   	  		
+   	  		    <item>Five golden rings</item> 
+   	  		
+   	  		      <item>Six geese a-laying</item> 
+   	  		
+   	  		        <item>Seven swans a-swimming</item> 
+   	  		
+   	  		          <item>Eight maids a-milking
+   	  		              
+   	  		          </item> 
+   	  		
+   	  		            <item>Nine ladies dancing</item> 
+   	  		
+   	  		              <item>Ten lords a-leaping</item> 
+   	  		
+   	  		                <item>Eleven pipers piping</item> 
+   	  		
+   	  		                  <item>Twelve drummers drumming</item> 
+   	  		
+   	  		                  
+   		  
+    </string-array>
+          
+    
+    
+    
+    
+
+</resources>
