@@ -1,6 +1,7 @@
 package com.dsa.twelvedaysxmas;
 
 
+import android.widget.TextView;
 import android.widget.Toast;
 import android.os.Bundle;
 import android.app.Activity;
@@ -15,16 +16,32 @@ public class MainActivity extends Activity {
 	int dayB = 0;
 	
 	
+
+
+
+final int duration = Toast.LENGTH_SHORT;
+
+	
+
+	
+	
+	
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+	
 		
-		
+
 		final String[] days = getResources().getStringArray(R.array.days);
 	    
 	final 	String[] gifts = getResources().getStringArray(R.array.lines);
+	
+	
+	
 	 
 		
+	
 		setContentView(R.layout.activity_main);
 	
 
@@ -33,6 +50,11 @@ public class MainActivity extends Activity {
 
     Button line = (Button) findViewById(R.id.button1);
     
+        
+
+    TextView viewday = (TextView) findViewById(R.id.textView1);
+    
+        
     
     
    //-
@@ -42,9 +64,9 @@ public class MainActivity extends Activity {
         
 			public void onClick(View v) {
 				
+	                 if (dayA >=12 )  { dayA = 0; }			
 				
-				
-				while ( dayA <= 12 )  {
+				while ( dayA < 12 )  {
 				
         		
 		      	 final android.content.Context context = getApplicationContext();
@@ -52,8 +74,6 @@ public class MainActivity extends Activity {
 		      	 
 		        final CharSequence day  = "On the " + days[dayA] + " day of Christmas";
 		        
-		        
-		        final int duration = Toast.LENGTH_SHORT;
 		        
 		    	 
 		        final CharSequence line  = "My true love gave to me " + gifts[dayA] ;
@@ -94,11 +114,7 @@ public class MainActivity extends Activity {
    		      	 
    		      	 
    		        final CharSequence day  = "On the " + days[dayB] + " day of Christmas!";
-   		        
-   		        
-   		        final int duration = Toast.LENGTH_SHORT;
-   		        
-   		    	 
+   		         
    		        final CharSequence line  = "My true love gave to me " + gifts[dayB] ;
    		      
    		        
